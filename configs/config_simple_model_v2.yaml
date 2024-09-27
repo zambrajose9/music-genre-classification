@@ -1,0 +1,10 @@
+model:
+  input_size: 57                   # Número de características de entrada
+  hidden_layers: [10]               # Capas ocultas
+  output_size: 10                   # Número de clases de salida
+  activation_function: Tanh         # Función de activación para las capas ocultas
+  output_activation: none           # Ninguna función de activación para la capa de salida
+  loss_function: CrossEntropyLoss   # Función de pérdida
+  learning_rate: 0.01               # Tasa de aprendizaje
+  optimizer: SGD                    # Optimizador ('SGD' o 'Adam')
+  epochs: 1000                      # Número de épocas

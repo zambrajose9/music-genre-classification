@@ -1,0 +1,32 @@
+# Ignorar archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar archivos de entornos virtuales
+venv/
+.env/
+.redesvenv/
+
+# Ignorar archivos de notebooks temporales
+.ipynb_checkpoints/
+
+# Ignorar archivos relacionados con VSCode
+.vscode/
+*.code-workspace
+
+# Ignorar modelos entrenados grandes
+models/*.pth
+models/*.h5
+models/*.ckpt
+
+# Ignorar datos sin procesar (si no quieres subir los datasets crudos)
+data/raw/
+
+# Ignorar archivos de configuración personales
+*.env
